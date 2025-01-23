@@ -22,8 +22,7 @@ def sum_and_count_above_diagonal(matrix):
                 count += 1
 
     return total_sum, count
-
-# Основной код
+    
 input_filename = 'ПарфеноваЕЕ_ЗИТ-24м_vvod.txt'
 output_filename = 'ПарфеноваЕЕ_ЗИТ-24м_vivod.txt'
 
@@ -52,7 +51,6 @@ def swap_min_max_in_rows(matrix):
         row[-1], row[max_index] = row[max_index], row[-1]
     return matrix
 
-# Основной код
 input_filename = 'ПарфеноваЕЕ_ЗИТ-24м_vvod.txt'
 output_filename = 'ПарфеноваЕЕ_ЗИТ-24м_vivod.txt'
 
